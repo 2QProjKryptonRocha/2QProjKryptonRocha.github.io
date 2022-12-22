@@ -8,17 +8,20 @@
 		display: block;
 		margin: auto;
 		font-size: 16px;
+		width: 1250px;
+		height: 720px;
 	}
 	
-		#header {
+		nav {
 				overflow: auto;
 				top: 0;
+				height:50px;
 				border-style:none;
 				padding-top:2px;
-				margin-bottom: 0.2%;
-				padding-right: 0.25%;
-				padding-bottom: 0.05%;
-				padding-left: 0.15%;
+				margin-bottom: 20px;
+				padding-right: 15px;
+				padding-bottom: 5px;
+				padding-left: 15px;
 				vertical-align: left;
 				font-family: Candara;
 				font-weight: bold;
@@ -35,20 +38,23 @@
 				border-color: white;
 				display: block;
 				margin: auto;
+				margin-bottom:1%;
+				margin-top: 1%;
+				position: relative;
 				}
 				
-				ul{
+				nav ul{
 					list-style-type: none;
 					margin:0;
 					padding:0;
 				}
 	 
-				li {
+				nav ul li {
 					display: block;
 					float: left;
 				}
 				
-				li a {
+				nav ul li a {
 					display: block;
 					padding:8px;
 					padding-top:10px;
@@ -60,7 +66,7 @@
 				}
 				
 				
-				li:hover{
+				nav li:hover{
 					background-color: #00e6cf;
 				}
 				
@@ -90,8 +96,8 @@
 				}
 				
 				#niigo{
-					padding-left: 20px;
-					padding-right: 20px;
+					padding-left: 30px;
+					padding-right: 30px;
 				}
 				
 				#twt {
@@ -398,6 +404,155 @@
 					text-align: center;
 					display:block;
 					margin: auto;
+				}
+				
+				#navigation {
+					width: cover;
+					margin-left: 2%;
+					margin-right: 2%;
+					margin-top: 1%;
+					margin-bottom: 2%;
+					padding-top: 1%;
+					padding-right: 1.5%;
+					padding-bottom: 1%;
+					padding-left: 1.5%;
+					text-align: left;
+					font-family: Candara;
+					border-radius: 15px;
+					border: 0.5px px grey;
+					background-color: white;
+					font-size:12px;
+				}
+				
+				#navigation a {
+					text-decoration: none;
+					color: black;
+				}
+				
+				#VSnav {
+					width: cover;
+					margin-left: 2%;
+					margin-right: 2%;
+					margin-top: 0.1%;
+					margin-bottom: 0.1%;
+					padding-top: 1%;
+					padding-right: 1.5%;
+					padding-bottom: 1%;
+					padding-left: 1.5%;
+					text-align: left;
+					font-family: Candara;
+					border: 0.5px px grey;
+					background-color:#208a8a;
+					color: white;
+				}
+				
+				#VSnav li a {
+					color: white;
+				}
+				
+				#lnnav {
+					width: cover;
+					margin-left: 2%;
+					margin-right: 2%;
+					margin-top: 0.1%;
+					margin-bottom: 0.1%;
+					padding-top: 1%;
+					padding-right: 1.5%;
+					padding-bottom: 1%;
+					padding-left: 1.5%;
+					text-align: left;
+					font-family: Candara;
+					border: 0.5px px grey;
+					background-color:#4455DD;
+					color: white;
+				}
+				
+				#lnnav li a {
+					color: white;
+				}
+				
+				#mmjnav {
+					width: cover;
+					margin-left: 2%;
+					margin-right: 2%;
+					margin-top: 0.1%;
+					margin-bottom: 0.1%;
+					padding-top: 1%;
+					padding-right: 1.5%;
+					padding-bottom: 1%;
+					padding-left: 1.5%;
+					text-align: left;
+					font-family: Candara;
+					border: 0.5px px grey;
+					background-color:#6CCB20;
+					color: white;
+				}
+				
+				#mmjnav li a {
+					color: white;
+				}
+				
+				#vbsnav {
+					width: cover;
+					margin-left: 2%;
+					margin-right: 2%;
+					margin-top: 0.1%;
+					margin-bottom: 0.1%;
+					padding-top: 1%;
+					padding-right: 1.5%;
+					padding-bottom: 1%;
+					padding-left: 1.5%;
+					text-align: left;
+					font-family: Candara;
+					border: 0.5px px grey;
+					background-color:#EE1166;
+					color: white;
+				}
+				
+				#vbsnav li a {
+					color: white;
+				}
+				
+				#WxSnav {
+					width: cover;
+					margin-left: 2%;
+					margin-right: 2%;
+					margin-top: 0.1%;
+					margin-bottom: 0.1%;
+					padding-top: 1%;
+					padding-right: 1.5%;
+					padding-bottom: 1%;
+					padding-left: 1.5%;
+					text-align: left;
+					font-family: Candara;
+					border: 0.5px px grey;
+					background-color:#FF9900;
+					color: white;
+				}
+				
+				#WxSnav li a {
+					color: white;
+				}
+				
+				#niigonav {
+					width: cover;
+					margin-left: 2%;
+					margin-right: 2%;
+					margin-top: 0.1%;
+					margin-bottom: 0.1%;
+					padding-top: 1%;
+					padding-right: 1.5%;
+					padding-bottom: 1%;
+					padding-left: 1.5%;
+					text-align: left;
+					font-family: Candara;
+					border: 0.5px px grey;
+					background-color: #884499;
+					color: white;
+				}
+				
+				#niigonav li a {
+					color: white;
 				}
 				
 				#References {
