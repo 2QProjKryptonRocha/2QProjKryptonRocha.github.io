@@ -1,9 +1,0 @@
-<html>
-	<head> WELCOME TO MY PAGE
-		<title>Project SEKAI! Colorful Stage Character Wiki</title>
-		<link rel = "Stylesheet" type = "text/css" href="AA.css">
-		<meta charset="UTF-8">
-		<meta name="name" content="Caitlyn Gael P.Rocha">
-		<meta name="keywords" content="HTML, CSS, Javascript">
-	</head>
-	<body>
