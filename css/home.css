@@ -96,6 +96,70 @@
 					padding-right: 30px;
 				}
 				
+				#twt {
+					background: url('../images/hover_icons-removebg-preview.png') no-repeat -441px -91px;
+					width: 37px;
+					height: 37px;
+					margin-left: 30px;
+					margin-right: 30px;
+					padding-top: 10px;
+					margin-top: 9px;
+					float:right;
+				}
+				
+				#twt:hover {
+					background: url('../images/hover_icons-removebg-preview.png')  no-repeat -252px -93px;
+					width: 37px;
+					height: 37px;
+					margin-left: 30px;
+					margin-right: 30px;
+					padding-top: 10px;
+					margin-top: 9px;
+					float:right;
+				}
+				
+				#ig {
+					background: url('../images/hover_icons-removebg-preview.png') no-repeat -393px -194px;
+					width: 37px;
+					height: 37px;
+					padding-top: 10px;
+					margin-top: 9px;
+					float:right;
+				}
+				
+				#ig:hover {
+					background: url('../images/hover_icons-removebg-preview.png') no-repeat -205px -195px;
+					width: 37px;
+					height: 37px;
+					padding-top: 10px;
+					margin-top: 9px;
+					float:right;
+				}
+				
+				#yt {
+					background: url('../images/hover_icons-removebg-preview.png') no-repeat -488px -91px;
+					width: 37px;
+					height: 37px;
+					margin-left: 30px;
+					margin-right: 30px;
+					padding-top: 10px;
+					margin-top: 9px;
+					float:right;
+				}
+				
+				#yt:hover {
+					background: url('../images/hover_icons-removebg-preview.png') no-repeat -300px -93px;
+					width: 37px;
+					height: 37px;
+					margin-left: 30px;
+					margin-right: 30px;
+					padding-top: 10px;
+					margin-top: 9px;
+					float:right;
+				}
+
+				
+				
 			#title {
 			
 				border: 0.5px;
