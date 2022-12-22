@@ -1,6 +1,6 @@
 	body{
 		background-image: url("../images/SEKAI_bg.png");
-		background-size: cover;
+		background-size: 100%;
 		background-repeat: no-repeat;
 		background-attachment: fixed;
 		font-family: Candara;

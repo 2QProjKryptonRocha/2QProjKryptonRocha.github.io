@@ -1,7 +1,7 @@
 	body{
 		position: relative;
 		background-image: url("../images/leoni_bg_blurred.png");
-		background-size: 100%;
+		background-size: cover;
 		background-repeat: no-repeat;
 		background-attachment: fixed;
 		font-family:Candara;
@@ -12,7 +12,7 @@
 		height: 720px;
 	}
 	
-		#header {
+		nav {
 				overflow: auto;
 				top: 0;
 				border-style:none;
