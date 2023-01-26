@@ -15,7 +15,7 @@
 		nav {
 				overflow: auto;
 				top: 0;
-				height:50px;
+				height:55px;
 				border-style:none;
 				padding-top:2px;
 				margin-bottom: 20px;
@@ -30,6 +30,8 @@
 				width: 100%;
 				box-shadow: 0px 2px 5px #00cdba;
 				z-index: 1000;
+				display: block;
+				margin: auto;
 				}
 			
 			#titlepic{
@@ -65,8 +67,12 @@
 					text-align: center;
 				}
 				
+				nav li{
+					transition:transform 0.2s ease-in-out;
+				}
 				
 				nav li:hover{
+					transform:scale(105%);
 					background-color: #00e6cf;
 				}
 				

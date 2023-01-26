@@ -15,12 +15,13 @@
 		nav {
 				overflow: auto;
 				top: 0;
+				height:55px;
 				border-style:none;
 				padding-top:2px;
-				margin-bottom: 0.2%;
-				padding-right: 0.25%;
-				padding-bottom: 0.05%;
-				padding-left: 0.15%;
+				margin-bottom: 20px;
+				padding-right: 15px;
+				padding-bottom: 5px;
+				padding-left: 15px;
 				vertical-align: left;
 				font-family: Candara;
 				font-weight: bold;
@@ -29,6 +30,8 @@
 				width: 100%;
 				box-shadow: 0px 2px 5px #00cdba;
 				z-index: 1000;
+				display: block;
+				margin: auto;
 				}
 			
 			#titlepic{
@@ -37,20 +40,23 @@
 				border-color: white;
 				display: block;
 				margin: auto;
+				margin-bottom:1%;
+				margin-top: 1%;
+				position: relative;
 				}
 				
-				#header ul{
+				nav ul{
 					list-style-type: none;
 					margin:0;
 					padding:0;
 				}
 	 
-				#header li {
+				nav ul li {
 					display: block;
 					float: left;
 				}
 				
-				#header li a {
+				nav ul li a {
 					display: block;
 					padding:8px;
 					padding-top:10px;
@@ -61,8 +67,12 @@
 					text-align: center;
 				}
 				
+				nav li{
+					transition:transform 0.2s ease-in-out;
+				}
 				
-				#header li:hover{
+				nav li:hover{
+					transform:scale(105%);
 					background-color: #00e6cf;
 				}
 				
@@ -92,8 +102,8 @@
 				}
 				
 				#niigo{
-					padding-left: 20px;
-					padding-right: 20px;
+					padding-left: 30px;
+					padding-right: 30px;
 				}
 				
 				#twt {
